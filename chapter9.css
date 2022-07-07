@@ -78,3 +78,49 @@ footer {
   width: 100%;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    display: block;
+    width: 100%;
+  }
+
+  .main-contents {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+  }
+
+  span {
+    left: 0;
+    top: 0;
+  }
+
+  .visual1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .visual2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .visual3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .text {
+    width: 100%;
+    margin: 15px 0 0 0;
+  }
+
+  .main-contents:nth-child(2) {
+    margin: 20px auto;
+  }
+
+  br {
+    display: none;
+  }
+}
